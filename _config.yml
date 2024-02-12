@@ -1,7 +1,7 @@
 # Configuración del sitio
 title: Mi Portafolio de Data Science
 description: Bienvenido a mi portafolio de Data Science. Aquí encontrarás información sobre mis proyectos, habilidades y experiencia en el campo de la ciencia de datos.
-url: https://tu-usuario.github.io     # URL de tu sitio
+url: https://reewos.github.io     # URL de tu sitio
 baseurl: ""                           # Ruta base del sitio (dejar en blanco para GitHub Pages)
 
 # Configuración de GitHub Pages
@@ -9,20 +9,21 @@ theme: jekyll-theme-minimal           # Tema predeterminado (puedes cambiarlo po
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-include-cache
 
 # Configuración del autor
 author:
-  name: Tu Nombre
+  name: Reewos Erwin Talla Chumpitaz
   bio: Científico de Datos | Apasionado por la Inteligencia Artificial
-  location: Tu ubicación
-  email: tu@email.com
-  twitter_username: tu_twitter
-  github_username: tu_github
+  location: Lima - Perú
+  email: reewos.talla.c@uni.pe
+  # twitter_username: tu_twitter
+  github_username: reewos
 
 # Enlaces sociales
 social_links:
-  twitter: https://twitter.com/tu_usuario
-  github: https://github.com/tu_usuario
+  # twitter: https://twitter.com/tu_usuario
+  github: https://github.com/reewos
 
 # Configuración de navegación
 nav_links:
