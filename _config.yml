@@ -5,17 +5,19 @@ url: https://reewos.github.io     # URL de tu sitio
 baseurl: ""                           # Ruta base del sitio (dejar en blanco para GitHub Pages)
 
 # Configuración de GitHub Pages
+remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: default
 search: true
 
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
+excerpt_separator: "\n\n"
+
 
 # Outputting
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-# timezone: PE
+timezone: PE
 
 include:
   - _pages
@@ -32,7 +34,8 @@ plugins:
 # Configuración del autor
 author:
   name: Reewos Erwin Talla Chumpitaz
-  bio: Científico de Datos | Apasionado por la Inteligencia Artificial
+  avatar: /assets/images/bio-photo.jpg
+  bio: Científico de Datos - Apasionado por la Inteligencia Artificial
   location: Lima - Perú
   email: reewos.talla.c@uni.pe
   links:
@@ -79,7 +82,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      # comments: true
       share: true
       related: true
   # _pages
