@@ -5,7 +5,8 @@ url: https://reewos.github.io     # URL de tu sitio
 baseurl: ""                           # Ruta base del sitio (dejar en blanco para GitHub Pages)
 
 # Configuración de GitHub Pages
-theme: jekyll-theme-minimal           # Tema predeterminado (puedes cambiarlo por el nombre de tu tema personalizado)
+# theme: jekyll-theme-minimal           # Tema predeterminado (puedes cambiarlo por el nombre de tu tema personalizado)
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 markdown: kramdown
 plugins:
   - jekyll-feed
